@@ -1,0 +1,10 @@
+from binascii import *
+from Crypto.Cipher import DES
+
+ciphertext = b'\x02\xe5U\xff\x9cW\xb0\xaa\xf8\x93>\x9fi{\xb3X\x19\xb3$m\xb3\x17\xbc\x89\xc3\xcb\xadt\x0f\xff\xb4Bo\xbe#\xb6\x16\xa4k\xac\xb2\xd9|\xeb\xe2\xe5\xcd=\xab\x18\xc0\xfe\x89?\xf1\xb8'
+key =  b'73696e6772656564'
+key = unhexlify(key)
+
+cipher = DES.new(key,DES.MODE_ECB)
+plaintext = cipher.decrypt(ciphertext)
+print(plaintext)

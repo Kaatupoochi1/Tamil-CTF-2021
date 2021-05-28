@@ -1,0 +1,4 @@
+The cipher is Standard Galactic Alphabet
+Going to this link
+https://www.dcode.fr/standard-galactic-alphabet
+You will get the flag after entering the cipher! :)

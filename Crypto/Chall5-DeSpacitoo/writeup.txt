@@ -1,0 +1,4 @@
+Cipher and Key is given!
+Only cipher is in bytes format not the key,so you need to convert the key into bytes
+Now do the DES Algorithm to get the flag!
+Feel Free to use the script to decrypt the ciphertext :)

@@ -1,0 +1,12 @@
+We get a file encrypted in AES. As the hint says the file name might be useful , the file name must be key.
+
+Key: Flamingooo
+
+Using the key we can decrypt the text file using AESCryptool or SharkAESCrypt .
+https://github.com/kenkendk/sharpaescrypt
+
+Opening the decrypted text file we see some junk. Junk means obviously malbolge cipher, decoding the cipher we will get another cipher. The cipher is Base Cipher so the decrypting order is
+
+Base62 -> Base85 -> Base58 -> Base32 -> Base64 , after following this decrypting method we get the flag!! :)
+
+
