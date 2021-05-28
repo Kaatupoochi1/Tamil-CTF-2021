@@ -1,0 +1,33 @@
+
+
+SOLUTIONS
+
+Challenge: Stefano
+
+Description:
+
+Solution:
+
+So we are given a audio file , doing spectrum techniques won't work , so we have to look for Audio Steganography Techniques.
+There is an interesting tool for Audio Steganography
+Here is the link!
+https://github.com/danielcardeenas/AudioStego
+After Downloading using the command
+
+./hideme _____ -f
+
+We will get an image ( So far so good!)
+Using stegcracker or Stegseek and rockyou.txt as wordlist , we will get the password as "http://apps.rockyou.com/photofx.swf"
+So using this as password , we use Steghide 
+
+We get a flag.png as the output file
+Its just a text file with extension .png
+
+In that text file , we get the flag in it
+But here is the twist , it is encoded in rot87 (Lil bit of Crypto)
+Here is the link for decoding it
+https://www.dcode.fr/rot-cipher
+Change the options to '94 PRINTABLE ASCII CHARACTERS FROM ! (33) TO ~ (126) (IE: ROT47)'
+Decode it and we will get the flag
+
+FLAG: TamilCTF{4udi0_St3g_R0ckY0u_St3g}

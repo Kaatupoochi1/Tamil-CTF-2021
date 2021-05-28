@@ -1,0 +1,14 @@
+Solution:
+
+We get two files one is hashes.txt another is a password protected zip file.
+Analysing the hashes it is md5 , cracking the hashes we get 2 words
+1)jetpack
+2)fishtail
+Since the pass is 1+2
+'jetpackfishtail' is the password for zip file
+
+Using this password we crack the zip file , we get an corrupted png image file
+
+We need to change the .PNG , IHDR, IEND headers to get the image
+
+After correcting it we get our flag.

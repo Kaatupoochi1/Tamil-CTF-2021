@@ -1,0 +1,6 @@
+This is another technique of Audio Steganography
+
+Using the tool Deepsound , upload the music file and you can extract the flag.txt file
+
+
+
