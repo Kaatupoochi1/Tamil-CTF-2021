@@ -1,2 +1,2 @@
 # Tamil-CTF-2021
-Tamil CTF 2021 Writeups
+These are the challenges and writeups that I have made for TamilCTF 2021
